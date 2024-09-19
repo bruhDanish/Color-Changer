@@ -18,7 +18,6 @@ buttons.forEach(function(button){
         }else if(e.target.id === 'purple'){
             body.style.backgroundColor = e.target.id;
         }
-        
     });
 });
 
