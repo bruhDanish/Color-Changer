@@ -4,6 +4,7 @@ const body = document.querySelector('body');
 buttons.forEach(function(button){
     console.log(button);
     button.addEventListener('click', function(e){
+        
         console.log(e);
         console.log(e.target);
         
@@ -18,6 +19,7 @@ buttons.forEach(function(button){
         }else if(e.target.id === 'purple'){
             body.style.backgroundColor = e.target.id;
         }
+
     });
 });
 
